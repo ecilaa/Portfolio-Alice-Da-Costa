@@ -1,0 +1,90 @@
+.background {
+    background:#F8F9FA;
+}
+
+.background3 {
+    background:  linear-gradient(#545ee9, #F8F9FA);
+}
+
+
+.ligne{
+    border-width: 3px;
+    color: black;
+}
+
+.background2 {
+    background:  linear-gradient(#F8F9FA, #545ee9);
+}
+
+.titre {
+    font-family: 'Montserrat', sans-serif;
+   font-weight: 1000;
+}
+
+.logo-linkedIn {
+width: 60px;
+left: 60px ;
+}
+
+.icone {
+    width: 30px;
+    left: 30px ;
+    }
+
+.icone2 {
+    width: 50px;
+    left: 50px ;
+    }    
+
+.body, form, input, textarea {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+h1, h2, h3, p, nav {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+ .illu {
+    width: 500px;
+    left: 500px ; 
+ } 
+
+.competence {
+    color: #545ee9;
+}
+
+
+/* Styles personnalisés pour les boutons du carrousel */
+    .carousel-control-prev, .carousel-control-next {
+        background-color: #545ee9; /* Couleur de fond des boutons */
+    }
+
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        background-color: #545ee9; /* Couleur de l'icône */
+        border-radius: 50%; /* Pour rendre les icônes rondes */
+    }
+
+
+    .btn.btn-primary {
+        background-color: #545ee9; /* Couleur de fond du bouton */
+    }
+
+    /*Survol du bouton */
+    .btn.btn-primary:hover {
+        background-color: #141636; 
+    }
+    
+
+/* Style de la navbar */
+.navbar {
+    transition: background-color 0.3s; /* Transition de la couleur de fond pour une apparence fluide */
+}
+
+/* Style de la navbar en mode sticky */
+.navbar.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff; /* Couleur de fond en mode sticky */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Ombre pour la navbar sticky */
+}
